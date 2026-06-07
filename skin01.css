@@ -1,3 +1,8 @@
 .controller.disconnected {
   opacity: 0 !important;
 }
+controller.custom {
+    background: url(https://media.discordapp.net/attachments/1144127952305528833/1513062331314208858/IMG_0021.png?ex=6a265c9b&is=6a250b1b&hm=ac178f76a30956c3a698fe208131b17c6efb7381e931750629e8bd6545ed8d2a&=&format=webp&quality=lossless&width=1372&height=839); 
+    height: 839px;
+    width: 1372px;
+}
