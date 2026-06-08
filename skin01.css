@@ -7,14 +7,14 @@
   opacity: 0 !important;
 }
 .custom .bumpers {
-    height: 839px;
-    width: 1372px;
+    height: 1237px;
+    width: 2022px;
     position: absolute;
 }
 .custom .bumper.left{
-    background: url(https://media.discordapp.net/attachments/1144127952305528833/1513062397877948577/IMG_0009.png?ex=6a265caa&is=6a250b2a&hm=53912e9d6bf72d52745cf141e0d5baf16824edf98dfdb3cbd4a2bcc1a4539f4e&=&format=webp&quality=lossless&width=1372&height=839); 
-    height: 839px;
-    width: 1372px;
+    background: url(bumper_left.png);
+    height: 1237px;
+    width: 2022px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -24,9 +24,9 @@
 }
 
 .custom .bumper.right{
-    background: url(https://media.discordapp.net/attachments/1144127952305528833/1513144010448044092/Untitled_Artwork.png?ex=6a26a8ac&is=6a25572c&hm=b9b1750d5f5a53e5f3ae2aba3a8638525b358270e210de03319d32f0e1b7d063&=&format=webp&quality=lossless&width=1372&height=839); 
-    height: 839px;
-    width: 1372px;
+    background: url(bumper_right.png);
+    height: 1237px;
+    width: 2022px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -35,14 +35,14 @@
     opacity:1;
 }
 .custom .triggers {
-    height: 839px;
-    width: 1372px;
+    height: 1237px;
+    width: 2022px;
     position: absolute;
 }
 .custom .trigger.left{
-    background: url(https://media.discordapp.net/attachments/1144127952305528833/1513062398108504094/IMG_0010.png?ex=6a265cab&is=6a250b2b&hm=f8602e33570afec85776290ef194449b9b903baa6ffa1d5d2ecabfb51ee6eb6e&=&format=webp&quality=lossless&width=1372&height=839); 
-    height: 839px;
-    width: 1372px;
+    background: url(trigger_left.png);
+    height: 1237px;
+    width: 2022px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -52,9 +52,9 @@
 }
 
 .custom .trigger.right{
-    background: url(https://media.discordapp.net/attachments/1144127952305528833/1513062397303193681/IMG_0007.png?ex=6a265caa&is=6a250b2a&hm=cd270ca28befd5e51d4c075fb206f9c7703afdfba5ca64ee5d2a7c5c875d640e&=&format=webp&quality=lossless&width=1372&height=839); 
-    height: 839px;
-    width: 1372px;
+    background: url(trigger_right.png);
+    height: 1237px;
+    width: 2022px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -63,14 +63,14 @@
     opacity:1;
 }
 .custom .arrows {
-    height: 839px;
-    width: 1372px;
+    height: 1237px;
+    width: 2022px;
     position: absolute;
 }
 .custom .back {
-    background: url(https://media.discordapp.net/attachments/1144127952305528833/1513062397646995606/IMG_0008.png?ex=6a265caa&is=6a250b2a&hm=6697b8ae36c2fdda01c5a0f10e18526bf460777806104a7ccfee224faefccdc7&=&format=webp&quality=lossless&width=1372&height=839); 
-    height: 839px;
-    width: 1372px;
+    background: url(menu_back.png);
+    height: 1237px;
+    width: 2022px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -80,9 +80,9 @@
 }
 
 .custom .start {
-    background: url(https://media.discordapp.net/attachments/1144127952305528833/1513146850251898980/Untitled_Artwork.png?ex=6a26ab52&is=6a2559d2&hm=c0c8d53df9f3bc9ea392734a311b50b22131d343c8aa1993848ddd9c88a54c53&=&format=webp&quality=lossless&width=1372&height=839); 
-    height: 839px;
-    width: 1372px;
+    background: url(menu_start.png);
+    height: 1237px;
+    width: 2022px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -90,3 +90,107 @@
 .custom .start.pressed{
     opacity:1;
 }
+.custom .abxy {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .button.a {
+    background: url(button_a.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    opacity:1;
+}
+.custom .button.b {
+    background: url(button_b.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.b.pressed{
+    opacity:1;
+}
+.custom .button.x {
+    background: url(button_x.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.x.pressed{
+    opacity:1;
+}
+.custom .button.y {
+    background: url(button_y.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.y.pressed{
+    opacity:1;
+}
+
+.custom .dpad {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .face.left {
+    background: url(dpad_left.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.left.pressed{
+    opacity:1;
+}
+
+.custom .face.down {
+    background: url(dpad_down.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.down.pressed{
+    opacity:1;
+}
+
+
+.custom .face.left {
+    background: url(dpad_left.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.left.pressed{
+    opacity:1;
+}
+
+.custom .face.right {
+    background: url(dpad_right.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.right.pressed{
+    opacity:1;
+}
+
