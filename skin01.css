@@ -145,16 +145,16 @@
     width: 2022px;
     position: absolute;
 }
-.custom .face.left {
-    background: url(dpad_left.png);
+.custom .face.up {
+    background: url(dpad_up.png);
     height: 1237px;
     width: 2022px;
     float: left;
     position: absolute;
     opacity: 0;
 }
-.custom .face.left.pressed{
-    opacity:1;
+.custom .face.up.pressed{
+    opacity: 1;
 }
 
 .custom .face.down {
