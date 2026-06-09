@@ -193,4 +193,19 @@
 .custom .face.right.pressed{
     opacity:1;
 }
+.custom .sticks {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+
+.custom .stick.left {
+    background: url(stick_left_solo.png);
+    left: 223px;
+    top: 439px;
+    width: 354px;
+    height: 307px;
+    float: left;
+    position: absolute;
+}
 
