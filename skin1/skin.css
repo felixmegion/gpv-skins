@@ -1,1 +1,220 @@
+.controller.custom {
+    background: url(Base.png); 
+    height: 612px;
+    width: 1000px;
+}
+.controller.disconnected {
+  opacity: 0 !important;
+}
+.custom .bumpers {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .bumper.left{
+    background: url(bumper_left.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .bumper.left.pressed{
+    opacity:1;
+}
 
+.custom .bumper.right{
+    background: url(bumper_right.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .bumper.right.pressed{
+    opacity:1;
+}
+.custom .triggers {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .trigger.left{
+    background: url(trigger_left.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger.left.pressed{
+    opacity:1;
+}
+
+.custom .trigger.right{
+    background: url(trigger_right.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger.right.pressed{
+    opacity:1;
+}
+.custom .arrows {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .back {
+    background: url(menu_back.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity:1;
+}
+
+.custom .start {
+    background: url(menu_start.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity:1;
+}
+.custom .abxy {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .button.a {
+    background: url(button_a.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    opacity:1;
+}
+.custom .button.b {
+    background: url(button_b.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.b.pressed{
+    opacity:1;
+}
+.custom .button.x {
+    background: url(button_x.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.x.pressed{
+    opacity:1;
+}
+.custom .button.y {
+    background: url(button_y.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.y.pressed{
+    opacity:1;
+}
+
+.custom .dpad {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .face.up {
+    background: url(dpad_up.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.up.pressed{
+    opacity: 1;
+}
+
+.custom .face.down {
+    background: url(dpad_down.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.down.pressed{
+    opacity:1;
+}
+
+
+.custom .face.left {
+    background: url(dpad_left.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.left.pressed{
+    opacity:1;
+}
+
+.custom .face.right {
+    background: url(dpad_right.png);
+    height: 1237px;
+    width: 2022px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.right.pressed{
+    opacity:1;
+}
+.custom .sticks {
+    height: 1237px;
+    width: 2022px;
+    position: absolute;
+}
+.custom .stick.left {
+    background: url(stick_left.png);
+    background-size: 270px 250px;
+    left: 260px;
+    top: 459px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: absolute;
+}
+.custom .stick.left.pressed {
+    background: url(stick_left_clicked.png);
+    background-size: 270px 250px;
+    left: 260px;
+    top: 459px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: absolute;
+}
