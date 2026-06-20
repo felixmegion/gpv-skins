@@ -6,45 +6,20 @@
 .controller.disconnected {
   opacity: 0 !important;
 }
-.custom .bumpers {
-    height: 1237px;
-    width: 2022px;
-    position: absolute;
-}
-.custom .bumper.left{
-    background: url(bumper_left.png);
-    height: 1237px;
-    width: 2022px;
-    float: left;
-    position: absolute;
-    opacity: 0;
-}
-.custom .bumper.left.pressed{
-    opacity:1;
-}
 
-.custom .bumper.right{
-    background: url(bumper_right.png);
-    height: 1237px;
-    width: 2022px;
-    float: left;
-    position: absolute;
-    opacity: 0;
-}
-.custom .bumper.right.pressed{
-    opacity:1;
-}
 .custom .triggers {
-    height: 1237px;
-    width: 2022px;
+    height: 87px;
+    width: 820px;
+    left: 87px;
+    top: 10px;
     position: absolute;
 }
 .custom .trigger.left{
     background: url(trigger_left.png);
-    height: 1237px;
-    width: 2022px;
+    height: 87px;
+    width: 149px;
     float: left;
-    position: absolute;
+    position: relative;
     opacity: 0;
 }
 .custom .trigger.left.pressed{
@@ -53,26 +28,58 @@
 
 .custom .trigger.right{
     background: url(trigger_right.png);
-    height: 1237px;
-    width: 2022px;
-    float: left;
-    position: absolute;
+    height: 84px;
+    width: 143px;
+    float: right;
+    position: relative;
     opacity: 0;
 }
 .custom .trigger.right.pressed{
     opacity:1;
 }
+.custom .bumpers {
+    height: 119px;
+    width: 912px;
+    left: 44px;
+    top: 60px;
+    position: absolute;
+}
+.custom .bumper.left{
+    background: url(bumper_left.png);
+    height: 119px;
+    width: 242px;
+    float: left;
+    position: relative;
+    opacity: 0;
+}
+.custom .bumper.left.pressed{
+    opacity:1;
+}
+
+.custom .bumper.right{
+    background: url(bumper_right.png);
+    height: 119px;
+    width: 241px;
+    float: right;
+    position: relative;
+    opacity: 0;
+}
+.custom .bumper.right.pressed{
+    opacity:1;
+}
 .custom .arrows {
-    height: 1237px;
-    width: 2022px;
+    height: 56px;
+    width: 211px;
+    top: 207px;
+    left: 395px;
     position: absolute;
 }
 .custom .back {
     background: url(menu_back.png);
-    height: 1237px;
-    width: 2022px;
+    height: 56px;
+    width: 49px;
     float: left;
-    position: absolute;
+    position: relative;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -81,25 +88,29 @@
 
 .custom .start {
     background: url(menu_start.png);
-    height: 1237px;
-    width: 2022px;
-    float: left;
-    position: absolute;
+    height: 56px;
+    width: 49px;
+    float: right;
+    position: relative;
     opacity: 0;
 }
 .custom .start.pressed{
     opacity:1;
 }
 .custom .abxy {
-    height: 1237px;
-    width: 2022px;
+    height: 234px;
+    width: 240px;
+    top: 197px;
+    left: 705px;
     position: absolute;
 }
 .custom .button.a {
     background: url(button_a.png);
-    height: 1237px;
-    width: 2022px;
+    height: 87px;
+    width: 93px;
     float: left;
+    top: 147px;
+    left: 62px;
     position: absolute;
     opacity: 0;
 }
@@ -108,8 +119,10 @@
 }
 .custom .button.b {
     background: url(button_b.png);
-    height: 1237px;
-    width: 2022px;
+    height: 91px;
+    width: 93px;
+    left: 147px;
+    top: 76px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -119,8 +132,9 @@
 }
 .custom .button.x {
     background: url(button_x.png);
-    height: 1237px;
-    width: 2022px;
+    height: 92px;
+    width: 93px;
+    top: 72px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -130,8 +144,9 @@
 }
 .custom .button.y {
     background: url(button_y.png);
-    height: 1237px;
-    width: 2022px;
+    height: 93px;
+    width: 96px;    
+    left: 84px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -169,7 +184,6 @@
     opacity:1;
 }
 
-
 .custom .face.left {
     background: url(dpad_left.png);
     height: 1237px;
@@ -194,27 +208,39 @@
     opacity:1;
 }
 .custom .sticks {
-    height: 1237px;
-    width: 2022px;
+    height: 300px;
+    width: 588px;
+    top: 223px;
+    left: 112px;
     position: absolute;
 }
 .custom .stick.left {
     background: url(stick_left.png);
-    background-size: 270px 250px;
-    left: 260px;
-    top: 459px;
-    width: 250px;
-    height: 250px;
+    width: 159px;
+    height: 143px;
     float: left;
     position: absolute;
 }
 .custom .stick.left.pressed {
-    background: url(stick_left_clicked.png);
-    background-size: 270px 250px;
-    left: 260px;
-    top: 459px;
-    width: 250px;
-    height: 250px;
+    background: url(stick_left_click.png);
+    width: 159px;
+    height: 143px;
     float: left;
+    position: relative;
+}
+.custom .stick.right {
+    background: url(stick_right.png);
+    top: 160px;
+    width: 164px;
+    height: 140px;
+    left: 424px;
+    position: absolute;
+}
+.custom .stick.right.pressed {
+    background: url(stick_right_click.png);
+    top: 160px;
+    width: 164px;
+    height: 140px;
+    left: 424px;
     position: absolute;
 }
