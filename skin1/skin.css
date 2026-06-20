@@ -156,14 +156,17 @@
 }
 
 .custom .dpad {
-    height: 1237px;
-    width: 2022px;
+    height: 167px;
+    width: 182px;
+    top: 370px;
+    left: 262px;
     position: absolute;
 }
 .custom .face.up {
     background: url(dpad_up.png);
-    height: 1237px;
-    width: 2022px;
+    height:76px;
+    width: 73px;
+    left: 49px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -174,8 +177,10 @@
 
 .custom .face.down {
     background: url(dpad_down.png);
-    height: 1237px;
-    width: 2022px;
+    height: 68px;
+    width: 69px;
+    left:  62px;
+    top: 99px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -186,8 +191,9 @@
 
 .custom .face.left {
     background: url(dpad_left.png);
-    height: 1237px;
-    width: 2022px;
+    height: 64px;
+    width: 79px;
+    top: 56px;
     float: left;
     position: absolute;
     opacity: 0;
@@ -198,8 +204,10 @@
 
 .custom .face.right {
     background: url(dpad_right.png);
-    height: 1237px;
-    width: 2022px;
+    height: 64px;
+    width: 78px;
+    left: 104px;
+    top:  54px;
     float: left;
     position: absolute;
     opacity: 0;
